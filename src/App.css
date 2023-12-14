@@ -4,7 +4,11 @@
   padding: 2rem;
   text-align: center;
 }
-
+html, body {
+  width: 100vw;
+  height: 100vh;
+  background: #f9f9f9;
+}
 .logo {
   height: 6em;
   padding: 1.5em;

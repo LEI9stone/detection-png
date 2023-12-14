@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .canvas-base64 {
+      background-repeat: no-repeat;
+      width: 300px;
+      height: 150px;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    <div>修改之前的图片</div> <img
+      src="data:image/png;base64,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"
+      alt="">
+  </div>
+  <div>
+    <div>修改之后的图片</div>
+    <div class="canvas-base64"></div>
+  </div>
+  <script>
+    const image = new Image();
+    image.onload = function() {
+      const canvas = document.createElement('canvas');
+      const context = canvas.getContext('2d');
+      // 将图片绘制到 canvas 上           
+      context.drawImage(image, 0, 0);
+      // 获取 canvas 上的像素数据      
+      const imageData = context.getImageData(0, 0, canvas.width, canvas.height);
+      console.log(imageData);
+      const data = imageData.data;
+      for (let i = 0, l = data.length; i < l; i += 4) {
+        if (data[i] === 255 && data[i + 1] === 28 && data[i + 2] === 55) {
+          const x = (i / 4) % canvas.width;
+          const y = Math.floor((i / 4) / canvas.width);
+          // context.strokeStyle = 'green';
+          // context.moveTo(0, y); 
+          // context.lineTo(canvas.width, y); 
+          // context.stroke();
+          // const base64 = canvas.toDataURL();
+          // const ele = document.querySelector('.canvas-base64'); 
+          
+          break;
+        }
+      }
+    };
+    image.src = '';
+  </script>
+</body>
+
+</html>
