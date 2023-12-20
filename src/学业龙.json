@@ -1,0 +1,154 @@
+[
+  {
+    "idx": 1,
+    "area": {
+      "x": 0.39266666666666666,
+      "y": 0.33866666666666667,
+      "w": 0.16566666666666666,
+      "h": 0.056666666666666664
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "https://q01.yinge.cc/resource/2023/12/20/9cb9ad5f-183d-4bd3-b59f-e7c7b4057c21.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "https://q01.yinge.cc/resource/2023/12/20/718b552f-2d03-4424-9ade-6254451316cf.png"
+    }
+  },
+  {
+    "idx": 3,
+    "area": {
+      "x": 0.37766666666666665,
+      "y": 0.329,
+      "w": 0.26266666666666666,
+      "h": 0.09433333333333334
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "https://q01.yinge.cc/resource/2023/12/20/19d21d49-f41c-40e2-8a74-59e4f5657455.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "https://q01.yinge.cc/resource/2023/12/20/1ec87131-fb38-4008-a031-8b8c60acceda.png"
+    }
+  },
+  {
+    "idx": 2,
+    "area": {
+      "x": 0.4656666666666667,
+      "y": 0.22766666666666666,
+      "w": 0.07766666666666666,
+      "h": 0.07766666666666666
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "https://q01.yinge.cc/resource/2023/12/20/6f731e0d-7c30-4ac4-b8ce-7901ba78b477.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "https://q01.yinge.cc/resource/2023/12/20/5cdf8ec8-3733-4640-a5e7-43f64bc23eb2.png"
+    }
+  },
+  {
+    "idx": 4,
+    "area": {
+      "x": 0.31466666666666665,
+      "y": 0.303,
+      "w": 0.31533333333333335,
+      "h": 0.13633333333333333
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "https://q01.yinge.cc/resource/2023/12/20/6279e4e8-fc7d-4f96-98d1-c9354cad24d8.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "https://q01.yinge.cc/resource/2023/12/20/520fa94f-194c-48d5-86a2-e3f095dce8ea.png"
+    }
+  },
+  {
+    "idx": 5,
+    "area": {
+      "x": 0.357,
+      "y": 0.15766666666666668,
+      "w": 0.063,
+      "h": 0.051
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "https://q01.yinge.cc/resource/2023/12/20/a6f65753-4488-47c6-8300-d2a3aa276c99.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "https://q01.yinge.cc/resource/2023/12/20/d913637e-9f44-4718-806d-2b7e36cad43e.png"
+    }
+  },
+  {
+    "idx": 75,
+    "area": {
+      "x": 0.357,
+      "y": 0.375,
+      "w": 0.295,
+      "h": 0.116
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "https://q01.yinge.cc/resource/2023/12/20/0c3462cd-71b9-47a8-9fef-abce8789484d.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "https://q01.yinge.cc/resource/2023/12/20/e733d7c7-1493-4612-ba47-79a4020ae202.png"
+    }
+  },
+  {
+    "idx": 11,
+    "area": {
+      "x": 0.31633333333333336,
+      "y": 0.294,
+      "w": 0.291,
+      "h": 0.16533333333333333
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "https://q01.yinge.cc/resource/2023/12/20/a1574928-321c-4a4b-b6ec-e89e444634c7.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "https://q01.yinge.cc/resource/2023/12/20/8f22c16e-3876-4002-a61c-c4fc406b4063.png"
+    }
+  },
+  {
+    "idx": 12,
+    "area": {
+      "x": 0.42633333333333334,
+      "y": 0.21266666666666667,
+      "w": 0.355,
+      "h": 0.261
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "https://q01.yinge.cc/resource/2023/12/20/89de11c3-95d1-404b-aaeb-ab0897b6d1e8.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "https://q01.yinge.cc/resource/2023/12/20/93f06d79-d47f-4804-aca3-c810032b2567.png"
+    }
+  }
+]
