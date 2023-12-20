@@ -13,6 +13,16 @@ const modules_2 = import.meta.glob<boolean, string, { default: string }>(
   "./loong/*/*/灰-无眼.png"
 );
 
+// const modules = import.meta.glob<boolean, string, { default: string }>(
+//   "./testloong/*/*/yj.png"
+// );
+// const modules_1 = import.meta.glob<boolean, string, { default: string }>(
+//   "./testloong/*/*/彩-有眼.png"
+// );
+// const modules_2 = import.meta.glob<boolean, string, { default: string }>(
+//   "./testloong/*/*/灰-无眼.png"
+// );
+
 function getAreaPos(url: string) {
   return new Promise<Record<string, number>>((resolve, reject) => {
     const canvas = document.createElement("canvas") as HTMLCanvasElement;
