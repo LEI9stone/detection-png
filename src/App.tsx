@@ -90,38 +90,38 @@ async function init() {
       });
       if (result) {
         const areaUrl = urlObj.default.split("?")[0];
-        const dir = areaUrl.replace(/yj.png/, '');
+        const dir = areaUrl.replace(/yj.png/, "");
         const data = {
-          "idx": dir,
-          "area": result,
-          "gray": {
-            "width": 3000,
-            "height": 3000,
-            "url": grayBlob[`${dir}灰-无眼.png`],
+          idx: dir,
+          eyeArea: result,
+          gray: {
+            width: 3000,
+            height: 3000,
+            url: grayBlob[`${dir}灰-无眼.png`],
           },
-          "eye": {
-            "width": 3000,
-            "height": 3000,
-            "url": eyeBlob[`${dir}彩-有眼.png`],
-          }
+          eye: {
+            width: 3000,
+            height: 3000,
+            url: eyeBlob[`${dir}彩-有眼.png`],
+          },
+        };
+        if (dir.includes("财富龙")) {
+          arr_财富龙.push(data);
         }
-        if (dir.includes('财富龙')) {
-          arr_财富龙.push(data)
+        if (dir.includes("安康龙")) {
+          arr_安康龙.push(data);
         }
-        if (dir.includes('安康龙')) {
-          arr_安康龙.push(data)
+        if (dir.includes("事业龙")) {
+          arr_事业龙.push(data);
         }
-        if (dir.includes('事业龙')) {
-          arr_事业龙.push(data)
+        if (dir.includes("通用龙")) {
+          arr_通用龙.push(data);
         }
-        if (dir.includes('通用龙')) {
-          arr_通用龙.push(data)
+        if (dir.includes("学业龙")) {
+          arr_学业龙.push(data);
         }
-        if (dir.includes('学业龙')) {
-          arr_学业龙.push(data)
-        }
-        if (dir.includes('姻缘龙')) {
-          arr_姻缘龙.push(data)
+        if (dir.includes("姻缘龙")) {
+          arr_姻缘龙.push(data);
         }
       }
     })
@@ -147,8 +147,11 @@ function initLoongBlob(obj: any) {
           errMap[urlObj.default] = err;
           return null;
         });
-        const imgUrl = await uploadImageAuto(result as Blob, UploadScene.Rouzao_resource, 1);
-        console.log('img', imgUrl);
+        const imgUrl = await uploadImageAuto(
+          result as Blob,
+          UploadScene.Rouzao_resource,
+          1
+        );
         if (result) {
           loongEyeMap[urlObj.default.split("?")[0]] = imgUrl;
         }
@@ -159,7 +162,7 @@ function initLoongBlob(obj: any) {
   });
 }
 
-init();
+// init();
 
 function App() {
   const [style] = useState<CSSProperties>({});
