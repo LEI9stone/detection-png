@@ -2,6 +2,8 @@
 import { CSSProperties, useState } from "react";
 import { uploadImageAuto, UploadScene } from "./upload";
 import "./App.css";
+// import eyeBlob from './眼睛.json';
+// import grayBlob from './灰色.json';
 // import tongyong from "./通用龙.json";
 const modules = import.meta.glob<boolean, string, { default: string }>(
   "./loong/*/*/yj.png"
@@ -81,16 +83,17 @@ function getImgBlob(url: string) {
 async function init() {
   const pathKeys = Object.keys(modules);
   const errMap: Record<string, any> = {};
-  const eyeBlob = await initLoongBlob(modules_1);
-  const grayBlob = await initLoongBlob(modules_2);
   const arr_财富龙: any[] = [];
   const arr_安康龙: any[] = [];
   const arr_事业龙: any[] = [];
   const arr_通用龙: any[] = [];
   const arr_学业龙: any[] = [];
   const arr_姻缘龙: any[] = [];
-
-  // console.log("eyeBlob", eyeBlob, grayBlob);
+  // const eyeBlob = await initLoongBlob(modules_1);
+  // const grayBlob = await initLoongBlob(modules_2);
+  console.log("eyeBlob", eyeBlob);
+  console.log('eyeBlob', grayBlob);
+  // return;
   Promise.all(
     pathKeys.map(async (pathKey) => {
       const urlObj = await modules[pathKey]();
@@ -181,6 +184,7 @@ function App() {
     <>
       <div id="canvas-wrap" style={{ position: "relative" }}>
         <canvas id="canvas" />
+        <div onClick={init} style={{width: 600, height: 300, background: 'red'}}>测试</div>
         <div
           style={{
             position: "absolute",
