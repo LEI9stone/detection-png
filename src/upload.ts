@@ -4,13 +4,7 @@ import axios from 'axios';
 
 const UPLOAD_DOMAIN_QINIU = "upload.qiniup.com";
 export enum UploadScene {
-  Rouzao_user = "rouzao_user",
-  Rouzao_user_fix = "rouzao_user_fix",
-  Rouzao_user_thumb = "rouzao_user_thumb",
-  Rouzao_tmp = "rouzao_tmp",
-  Rouzao_user_comment = "rouzao_user_comment",
-  Rouzao_user_avatar = "rouzao_user_avatar",
-  Rouzao_resource='resource'
+  Rouzao_resource='Rouzao_resource'
 }
 
 /**
@@ -146,7 +140,7 @@ export function uploadImageAuto(
 /** 图片上传，支持七牛/oss自动切换 */
 export async function uploadImageAuto(
   file: Blob | Blob[] | FileList,
-  scene = UploadScene.Rouzao_user,
+  scene = UploadScene.Rouzao_resource,
   backup: 0 | 1 = 0,
   filterErr = true
 ): Promise<any> {

@@ -1,0 +1,59 @@
+[
+  {
+    "idx": "/src/loong/财富/Q2/",
+    "eyeArea": {
+      "x": 0.24466666666666667,
+      "y": 0.36866666666666664,
+      "w": 0.4726666666666667,
+      "h": 0.14833333333333334
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/73bf7db2-22eb-402d-a1a7-add28a7216c3.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/732f5440-28e5-4cc8-8ed3-5bb50d867c81.png"
+    }
+  },
+  {
+    "idx": "/src/loong/财富/Q1/",
+    "eyeArea": {
+      "x": 0.29033333333333333,
+      "y": 0.31333333333333335,
+      "w": 0.3426666666666667,
+      "h": 0.12633333333333333
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/987b8303-7294-4d3e-8a4e-5f1243af39d7.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/ea186c39-94ac-4e4f-a3c2-61f54bf06d84.png"
+    }
+  },
+  {
+    "idx": "/src/loong/财富/Q3/",
+    "eyeArea": {
+      "x": 0.253,
+      "y": 0.407,
+      "w": 0.475,
+      "h": 0.15333333333333332
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/78b7ccfb-3d3c-4d10-bf97-cec28e6cf2ec.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/f3fd9095-c698-4693-b6b4-9235e71801cd.png"
+    }
+  }
+]

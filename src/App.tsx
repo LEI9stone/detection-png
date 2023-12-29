@@ -2,8 +2,8 @@
 import { CSSProperties, useState } from "react";
 import { uploadImageAuto, UploadScene } from "./upload";
 import "./App.css";
-// import eyeBlob from './眼睛.json';
-// import grayBlob from './灰色.json';
+import eyeBlob from './眼睛.json';
+import grayBlob from './灰色.json';
 // import tongyong from "./通用龙.json";
 const modules = import.meta.glob<boolean, string, { default: string }>(
   "./loong/*/*/yj.png"
@@ -118,22 +118,22 @@ async function init() {
             url: eyeBlob[`${dir}彩-有眼.png`],
           },
         };
-        if (dir.includes("财富龙")) {
+        if (dir.includes("财富")) {
           arr_财富龙.push(data);
         }
-        if (dir.includes("安康龙")) {
+        if (dir.includes("安康")) {
           arr_安康龙.push(data);
         }
-        if (dir.includes("事业龙")) {
+        if (dir.includes("事业")) {
           arr_事业龙.push(data);
         }
-        if (dir.includes("通用龙")) {
+        if (dir.includes("通用")) {
           arr_通用龙.push(data);
         }
-        if (dir.includes("学业龙")) {
+        if (dir.includes("学业")) {
           arr_学业龙.push(data);
         }
-        if (dir.includes("姻缘龙")) {
+        if (dir.includes("姻缘")) {
           arr_姻缘龙.push(data);
         }
       }

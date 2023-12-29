@@ -1,0 +1,59 @@
+[
+  {
+    "idx": "/src/loong/姻缘/Q1/",
+    "eyeArea": {
+      "x": 0.433,
+      "y": 0.344,
+      "w": 0.303,
+      "h": 0.154
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/221affe9-e196-440c-a890-f6ccf16a21b1.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/9918686b-788a-4d74-ad25-5392a8dfb547.png"
+    }
+  },
+  {
+    "idx": "/src/loong/姻缘/Q3/",
+    "eyeArea": {
+      "x": 0.366,
+      "y": 0.32966666666666666,
+      "w": 0.38066666666666665,
+      "h": 0.14933333333333335
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/5b83c604-493e-444c-90c3-75803962f062.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/a09ad477-7b5c-4af8-9d16-4075559d3c70.png"
+    }
+  },
+  {
+    "idx": "/src/loong/姻缘/Q2/",
+    "eyeArea": {
+      "x": 0.5043333333333333,
+      "y": 0.3343333333333333,
+      "w": 0.2633333333333333,
+      "h": 0.12933333333333333
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/3690b3ef-49f3-4eb9-a7d5-cc3158673b0d.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/23d7a821-331d-4050-b820-bdd084454d0b.png"
+    }
+  }
+]

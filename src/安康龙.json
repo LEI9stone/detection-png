@@ -1,0 +1,59 @@
+[
+  {
+    "idx": "/src/loong/安康/Q3/",
+    "eyeArea": {
+      "x": 0.2753333333333333,
+      "y": 0.32066666666666666,
+      "w": 0.3333333333333333,
+      "h": 0.15433333333333332
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/c7afa9f4-7b25-4134-b4b5-27272904978b.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/88389e0b-7154-4e74-abcd-7830eacf72d9.png"
+    }
+  },
+  {
+    "idx": "/src/loong/安康/Q1/",
+    "eyeArea": {
+      "x": 0.33,
+      "y": 0.365,
+      "w": 0.424,
+      "h": 0.14766666666666667
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/710e8059-4b6b-4a32-b0ba-4139eee1a949.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/42bd90b5-ca5b-4172-9d72-1d90e21666f1.png"
+    }
+  },
+  {
+    "idx": "/src/loong/安康/Q2/",
+    "eyeArea": {
+      "x": 0.3496666666666667,
+      "y": 0.41433333333333333,
+      "w": 0.3313333333333333,
+      "h": 0.11666666666666667
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/0948f319-4765-4608-9978-ed64873b587a.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/ce560c4a-496f-4eea-acb2-ffe7a8ab1a2d.png"
+    }
+  }
+]

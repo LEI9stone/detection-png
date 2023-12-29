@@ -1,0 +1,59 @@
+[
+  {
+    "idx": "/src/loong/学业/Q1/",
+    "eyeArea": {
+      "x": 0.25533333333333336,
+      "y": 0.4666666666666667,
+      "w": 0.3253333333333333,
+      "h": 0.10533333333333333
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/a278c35f-e607-47bb-85da-a300e61053e1.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/7129b4bd-3e3f-45c0-93d9-df3952563164.png"
+    }
+  },
+  {
+    "idx": "/src/loong/学业/Q2/",
+    "eyeArea": {
+      "x": 0.282,
+      "y": 0.33,
+      "w": 0.382,
+      "h": 0.11133333333333334
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/46df38eb-3653-4695-bd97-e71a44aea794.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/db2ef175-5960-4367-b984-ae5ec6a2e15a.png"
+    }
+  },
+  {
+    "idx": "/src/loong/学业/Q3/",
+    "eyeArea": {
+      "x": 0.277,
+      "y": 0.4096666666666667,
+      "w": 0.42033333333333334,
+      "h": 0.10733333333333334
+    },
+    "gray": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/d46bff91-f4f1-4455-a30c-2eb360608807.png"
+    },
+    "eye": {
+      "width": 3000,
+      "height": 3000,
+      "url": "//a01.yinge.co/resource/2023/12/29/EGOykaA/7e74dd7a-01f3-49f6-b957-b8b163cb1255.png"
+    }
+  }
+]
